@@ -1,12 +1,15 @@
-import About from './About'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import Services from './Services'
+import About from './About'
 
 function Home() {
   return (
     <div>
-      <h1>Welcome to Lockohn Consulting</h1>
+      <Navbar />
       <Services />
       <About />
+      <Footer />
     </div>
   )
 }
