@@ -10,7 +10,8 @@ function Home() {
         textAlign: 'center',
         padding: '80px 40px 60px',
         borderBottom: '3px solid #4a8fb5',
-        boxShadow: '0 4px 20px rgba(0,0,0,0.06)'
+        boxShadow: '0 4px 20px rgba(0,0,0,0.06)',
+        width: '100%'
       }}>
         <img src="/logo.png" alt="Lockohn Consulting" style={{ height: '160px', marginBottom: '32px' }} />
         <h1 style={{ color: '#0d1b2a', fontSize: '2.6rem', textTransform: 'uppercase', letterSpacing: '3px', fontFamily: 'sans-serif', marginBottom: '16px' }}>
@@ -34,22 +35,23 @@ function Home() {
         </Link>
       </div>
 
-      {/* About */}
-      <div style={{ backgroundColor: '#f9fafb', padding: '60px 40px' }}>
-  <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-        <h2 style={{ color: '#0d1b2a', textTransform: 'uppercase', letterSpacing: '2px', borderLeft: '4px solid #4a8fb5', paddingLeft: '16px', marginBottom: '24px', fontFamily: 'sans-serif' }}>
-          Who We Are
-        </h2>
-        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', color: '#444', marginBottom: '16px' }}>
-          Most teams are tasked with doing more with less. They don't have the resources, time, or budget flexibility to sift through vendors or evaluate every solution. Every project requires putting their name on the line — and choosing the wrong partner can create more problems than it solves.
-        </p>
-        <p style={{ fontSize: '1.1rem', lineHeight: '1.9', color: '#444' }}>
-          My role is to remove that burden. I learn the project, understand the constraints, and work alongside your team to navigate engagements with pre-vetted solution providers — partners who are committed before, during, and after the project.
-        </p>
+      {/* Who We Are */}
+      <div style={{ width: '100%', backgroundColor: '#f9fafb', padding: '60px 40px' }}>
+        <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <h2 style={{ color: '#0d1b2a', textTransform: 'uppercase', letterSpacing: '2px', borderLeft: '4px solid #4a8fb5', paddingLeft: '16px', marginBottom: '24px', fontFamily: 'sans-serif' }}>
+            Who We Are
+          </h2>
+          <p style={{ fontSize: '1.1rem', lineHeight: '1.9', color: '#444', marginBottom: '16px' }}>
+            Most teams are tasked with doing more with less. They don't have the resources, time, or budget flexibility to sift through vendors or evaluate every solution. Every project requires putting their name on the line — and choosing the wrong partner can create more problems than it solves.
+          </p>
+          <p style={{ fontSize: '1.1rem', lineHeight: '1.9', color: '#444' }}>
+            My role is to remove that burden. I learn the project, understand the constraints, and work alongside your team to navigate engagements with pre-vetted solution providers — partners who are committed before, during, and after the project.
+          </p>
+        </div>
       </div>
 
-      {/* Services */}
-      <div style={{ backgroundColor: '#ffffff', borderTop: '1px solid #d0d8e0', borderBottom: '1px solid #d0d8e0', padding: '60px 40px' }}>
+      {/* What We Do */}
+      <div style={{ width: '100%', backgroundColor: '#ffffff', borderTop: '1px solid #d0d8e0', borderBottom: '1px solid #d0d8e0', padding: '60px 40px' }}>
         <div style={{ maxWidth: '900px', margin: '0 auto' }}>
           <h2 style={{ color: '#0d1b2a', textTransform: 'uppercase', letterSpacing: '2px', borderLeft: '4px solid #4a8fb5', paddingLeft: '16px', marginBottom: '40px', fontFamily: 'sans-serif' }}>
             What We Do
@@ -78,29 +80,31 @@ function Home() {
       </div>
 
       {/* Industries */}
-      <div style={{ maxWidth: '900px', margin: '0 auto', padding: '60px 40px' }}>
-        <h2 style={{ color: '#0d1b2a', textTransform: 'uppercase', letterSpacing: '2px', borderLeft: '4px solid #4a8fb5', paddingLeft: '16px', marginBottom: '24px', fontFamily: 'sans-serif' }}>
-          Industries We Serve
-        </h2>
-        <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
-          {['Food & Beverage', 'Manufacturing'].map(industry => (
-            <div key={industry} style={{
-              border: '2px solid #4a8fb5',
-              padding: '16px 32px',
-              color: '#0d1b2a',
-              fontWeight: '600',
-              textTransform: 'uppercase',
-              letterSpacing: '2px',
-              fontSize: '14px'
-            }}>
-              {industry}
-            </div>
-          ))}
+      <div style={{ width: '100%', backgroundColor: '#f9fafb', padding: '60px 40px' }}>
+        <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <h2 style={{ color: '#0d1b2a', textTransform: 'uppercase', letterSpacing: '2px', borderLeft: '4px solid #4a8fb5', paddingLeft: '16px', marginBottom: '24px', fontFamily: 'sans-serif' }}>
+            Industries We Serve
+          </h2>
+          <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
+            {['Food & Beverage', 'Manufacturing'].map(industry => (
+              <div key={industry} style={{
+                border: '2px solid #4a8fb5',
+                padding: '16px 32px',
+                color: '#0d1b2a',
+                fontWeight: '600',
+                textTransform: 'uppercase',
+                letterSpacing: '2px',
+                fontSize: '14px'
+              }}>
+                {industry}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
-      {/* Contact */}
-      <div style={{ backgroundColor: '#0d1b2a', padding: '60px 40px', textAlign: 'center' }}>
+      {/* Get In Touch */}
+      <div style={{ width: '100%', backgroundColor: '#0d1b2a', padding: '60px 40px', textAlign: 'center' }}>
         <h2 style={{ color: '#ffffff', textTransform: 'uppercase', letterSpacing: '3px', marginBottom: '16px', fontFamily: 'sans-serif' }}>
           Get In Touch
         </h2>
