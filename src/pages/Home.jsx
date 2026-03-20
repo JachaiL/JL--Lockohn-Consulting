@@ -35,7 +35,8 @@ function Home() {
       </div>
 
       {/* About */}
-      <div style={{ maxWidth: '900px', margin: '0 auto', padding: '60px 40px' }}>
+      <div style={{ backgroundColor: '#f9fafb', padding: '60px 40px' }}>
+  <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 style={{ color: '#0d1b2a', textTransform: 'uppercase', letterSpacing: '2px', borderLeft: '4px solid #4a8fb5', paddingLeft: '16px', marginBottom: '24px', fontFamily: 'sans-serif' }}>
           Who We Are
         </h2>
