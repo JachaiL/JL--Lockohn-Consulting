@@ -1,8 +1,8 @@
 :root {
   --bg: #05060a;
   --bg-alt: #0b0d14;
-  --accent: #f5b400;
-  --accent-soft: rgba(245, 180, 0, 0.12);
+  --accent: #5aaedc;
+  --accent-soft: rgba(90, 174, 220, 0.12);
   --text: #f5f5f7;
   --muted: #9ca3af;
   --border: #1f2933;
@@ -26,7 +26,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
+  background: radial-gradient radial-gradient(circle at top, #0f1c2e 0, #050810 55%, #000 100%);
   color: var(--text);
   font-family: var(--font-sans);
 }
@@ -83,7 +83,7 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 999px;
-  background: radial-gradient(circle at 30% 0, #fef3c7, #f97316 40%, #111827);
+  background: radial-gradient(circle at 30% 0, #a8d8f0, #1b4b7a 40%, #111827);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,7 +148,7 @@ body {
   padding: 0.45rem 0.9rem;
   border-radius: 999px;
   border: 1px solid rgba(248, 250, 252, 0.12);
-  background: radial-gradient(circle at top left, #f97316 0, #111827 55%);
+  background: radial-gradient(circle at top left, #5aaedc 0, #1b2b4b 55%);
   color: #f9fafb;
   font-size: 0.8rem;
   letter-spacing: 0.12em;
@@ -219,8 +219,8 @@ body {
   padding: 0.7rem 1.4rem;
   border-radius: 999px;
   border: none;
-  background: linear-gradient(135deg, #f97316, #facc15);
-  color: #020617;
+  background: linear-gradient(135deg, #5aaedc, #1b4b7a);
+  color: #f9fafb;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.12em;
