@@ -14,7 +14,7 @@ export default function Hero() {
         top: '50%',
         transform: 'translateY(-50%)',
         width: '55%',
-        opacity: 0.07,
+        opacity: 0.15,
         maskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
         WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
         pointerEvents: 'none',
@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* SVG circuit decoration top-left */}
-      <svg style={{ position: 'absolute', top: 0, left: 0, opacity: 0.15, pointerEvents: 'none', zIndex: 0 }}
+      <svg style={{ position: 'absolute', top: 0, left: 0, opacity: 0.35, pointerEvents: 'none', zIndex: 0 }}
         width="220" height="220" viewBox="0 0 220 220">
         <circle cx="20" cy="20" r="5" fill="none" stroke="#5aaedc" strokeWidth="1.5"/>
         <line x1="20" y1="20" x2="20" y2="80" stroke="#5aaedc" strokeWidth="1.5"/>
@@ -41,7 +41,7 @@ export default function Hero() {
       </svg>
 
       {/* SVG gear bottom-right */}
-      <svg style={{ position: 'absolute', bottom: '-30px', right: '30px', opacity: 0.08, pointerEvents: 'none', zIndex: 0 }}
+      <svg style={{ position: 'absolute', bottom: '-30px', right: '30px', opacity: 0.2, pointerEvents: 'none', zIndex: 0 }}
         width="180" height="180" viewBox="0 0 100 100">
         <g transform="translate(50,50)">
           {[0,30,60,90,120,150,180,210,240,270,300,330].map((angle, i) => (
