@@ -26,7 +26,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient radial-gradient(circle at top, #0f1c2e 0, #050810 55%, #000 100%);
+  background: radial-gradient(circle at top, #0f1c2e 0, #050810 55%, #000 100%);
   color: var(--text);
   font-family: var(--font-sans);
 }
