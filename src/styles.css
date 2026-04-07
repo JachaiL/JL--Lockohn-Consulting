@@ -4,7 +4,7 @@
   --accent: #5aaedc;
   --accent-soft: rgba(90, 174, 220, 0.12);
   --text: #f5f5f7;
-  --muted: ##7ab3d4;
+  --muted: ##a8cfe8;
   --border: #1a3a5c;
   --card: #0f1118;
   --danger: #e11d48;
@@ -26,7 +26,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle at top, #0d1f38, #071428 70%);
+  background: radial-gradient(circle at top, #1a3a5c 0, #0d2040 55%, #071428 100%);
   color: var(--text);
   font-family: var(--font-sans);
 }
