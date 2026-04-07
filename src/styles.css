@@ -1,11 +1,11 @@
 :root {
-  --bg: #05060a;
+--bg: #071428;
   --bg-alt: #0b0d14;
   --accent: #5aaedc;
   --accent-soft: rgba(90, 174, 220, 0.12);
   --text: #f5f5f7;
-  --muted: #9ca3af;
-  --border: #1f2933;
+  --muted: ##7ab3d4;
+  --border: #1a3a5c;
   --card: #0f1118;
   --danger: #e11d48;
   --radius-lg: 16px;
@@ -26,7 +26,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle at top, #0f1c2e 0, #050810 55%, #000 100%);
+  background: radial-gradient(circle at top, #0d1f38, #071428 70%);
   color: var(--text);
   font-family: var(--font-sans);
 }
