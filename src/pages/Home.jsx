@@ -10,10 +10,10 @@ export default function Home() {
     <>
       <Hero />
 
-      {/* What Lockohn Does */}
+      {/* What Lockohn Consulting Does */}
       <Section
         heading="Connecting F&B Manufacturers with Vetted Solution Providers"
-        title="The right partner. At the right time. At no cost to you."
+        title="The right partner. At the right time."
         body="Lockohn Consulting works on your behalf to navigate the vendor selection process — connecting Engineering, Operations, and Maintenance teams at food and beverage manufacturers with pre-vetted solution providers for capital, operational, and maintenance initiatives. No sales pitch. Just quicker, better results when you need them."
       />
 
@@ -23,17 +23,16 @@ export default function Home() {
         <div className="card">
           <div className="card-header">
             <span className="card-title">Food & Beverage Processors & Manufacturers</span>
-            <span className="card-tag">No Cost</span>
+            <span className="card-tag">Manufacturers</span>
           </div>
           <div className="card-body">
             <p>You're already doing more with less. Finding the right vendor early in your project cycle means sifting through countless options and extended lead times — before you even know if a solution fits.</p>
-            <p style={{ marginTop: '0.75rem' }}>Lockohn takes that burden off your plate.</p>
+            <p style={{ marginTop: '0.75rem' }}>Lockohn Consulting takes that burden off your plate.</p>
             <ul className="card-list" style={{ marginTop: '0.75rem' }}>
               <li>Get qualified vendors on your radar earlier in your planning phase</li>
               <li>Accelerate technical discussions with pre-vetted providers</li>
               <li>Shorten project timelines by connecting directly to supplier decision makers</li>
               <li>A trusted conduit from project initiation to completion and beyond</li>
-              <li>No cost or obligation — ever</li>
             </ul>
           </div>
           <div style={{ marginTop: '1.25rem' }}>
@@ -50,7 +49,7 @@ export default function Home() {
           </div>
           <div className="card-body">
             <p>You've built great products and services. The challenge is getting in front of the right decision makers inside food and beverage manufacturing facilities — before projects are spec'd and budgets are locked.</p>
-            <p style={{ marginTop: '0.75rem' }}>Lockohn bridges that gap.</p>
+            <p style={{ marginTop: '0.75rem' }}>Lockohn Consulting bridges that gap.</p>
             <ul className="card-list" style={{ marginTop: '0.75rem' }}>
               <li>Access to pre-qualified decision makers inside F&B facilities</li>
               <li>Get ahead of projects before timelines are set</li>
@@ -71,7 +70,7 @@ export default function Home() {
       <Section
         heading="Areas of Application"
         title="Wherever your project takes you"
-        body="From maintenance needs to full greenfield builds, Lockohn connects you with the right solution provider across every phase of your project."
+        body="From maintenance needs to full greenfield builds, Lockohn Consulting connects you with the right solution provider across every phase of your project."
       />
 
       <div className="grid-3" style={{ marginTop: '1.5rem' }}>
