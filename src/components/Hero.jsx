@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Circuit decoration top-left */}
-      <svg style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', zIndex: 0 }}
+      <svg style={{ position: 'absolute', top: '288px', left: '-192px', pointerEvents: 'none', zIndex: 0 }}
         width="380" height="380" viewBox="0 0 380 380">
 
         {/* Dark navy thick bracket lines */}
