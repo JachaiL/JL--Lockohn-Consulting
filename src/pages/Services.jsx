@@ -17,7 +17,6 @@ export default function Services() {
 
       <div className="grid-3" style={{ gridTemplateColumns: '1fr 1fr', marginTop: '2.5rem', gap: '2rem' }}>
 
-        {/* FM Card */}
         <div className="card">
           <div className="card-header">
             <span className="card-title">Food & Beverage Processors & Manufacturers</span>
@@ -41,7 +40,6 @@ export default function Services() {
           </div>
         </div>
 
-        {/* SV Card */}
         <div className="card">
           <div className="card-header">
             <span className="card-title">Solution Providers & Vendors</span>
@@ -64,8 +62,3 @@ export default function Services() {
             </button>
           </div>
         </div>
-
-      </div>
-<section style={{ textAlign: 'center' }}>
-</section>  );
-}
