@@ -27,7 +27,7 @@ export default function Services() {
           </div>
           <div style={{ marginTop: '2rem' }}>
             <button className="btn-primary" onClick={() => navigate('/services/vendors')}>
-              Learn How We Help SVs
+              Learn How We Can Shorten Project Engagement
             </button>
           </div>
         </div>
