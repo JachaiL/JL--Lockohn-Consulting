@@ -65,7 +65,7 @@ export default function Hero() {
       </svg>
 
       {/* Large gear bottom-right */}
-      <svg style={{ position: 'absolute', bottom: '-318px', right: '-174px', pointerEvents: 'none', zIndex: 0 }}
+      <svg style={{ position: 'absolute', bottom: '0px', right: '-220px', pointerEvents: 'none', zIndex: 0 }}
         width="460" height="460" viewBox="0 0 240 240">
 
         <g transform="translate(120,120)">
