@@ -10,10 +10,10 @@ export default function Hero() {
       {/* Animated rolling logo watermark */}
       <div style={{
         position: 'absolute',
-        left: '50%',
-        top: '60%',
+        left: '35%',
+        top: '70%',
         transform: 'translate(-50%, -50%)',
-        width: '85%',
+        width: '120%',
         opacity: 0.45,
         maskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)',
         WebkitMaskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)',
@@ -120,7 +120,7 @@ export default function Hero() {
       {/* Main content */}
       <div className="hero-grid" style={{ position: 'relative', zIndex: 1 }}>
         <div>
-          <div className="hero-kicker" style={{ fontSize: '2rem' }}>Food & Beverage Processing and Manufacturing</div>
+          <div className="hero-kicker" style={{ fontSize: '1.1rem', letterSpacing: '3px' }}>Food & Beverage Processing and Manufacturing</div>
           <h1 className="hero-title" style={{ fontSize: '3.2rem', color: '#ffffff' }}>
             Connecting <span style={{ color: '#ffffff' }}>F&B Manufacturers</span> with the Right Solution Providers
           </h1>
