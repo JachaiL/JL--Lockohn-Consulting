@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Circuit decoration top-left */}
-      <svg style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', zIndex: 0 }}
+<svg style={{ position: 'absolute', top: 0, left: '-120px', pointerEvents: 'none', zIndex: 0 }}
         width="380" height="380" viewBox="0 0 380 380">
 
         {/* Dark navy thick bracket lines */}
@@ -76,7 +76,6 @@ export default function Hero() {
               opacity="0.7"
               transform={`rotate(${angle})`}/>
           ))}
-          {/* Outer ring - dark */}
           <circle cx="0" cy="0" r="88" fill="none" stroke="#0d2040" strokeWidth="5" opacity="0.8"/>
           <circle cx="0" cy="0" r="88" fill="none" stroke="#5aaedc" strokeWidth="1.5" opacity="0.5"/>
           {/* Inner ring */}
