@@ -7,9 +7,9 @@ export default function Hero() {
   return (
     <section style={{ position: 'relative', overflow: 'visible' }}>
 
-      {/* Animated rolling logo watermark */}
+      {/* Fixed background logo watermark */}
       <div style={{
-        position: 'absolute',
+        position: 'fixed',
         left: '35%',
         top: '70%',
         transform: 'translate(-50%, -50%)',
@@ -19,18 +19,9 @@ export default function Hero() {
         WebkitMaskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)',
         pointerEvents: 'none',
         zIndex: 0,
-        animation: 'slowRoll 18s linear infinite',
       }}>
         <img src="/logo_png_2.png" alt="" style={{ width: '100%' }} />
       </div>
-
-      {/* Keyframe animation */}
-      <style>{`
-        @keyframes slowRoll {
-          0%   { transform: translate(-50%, -50%) rotate(0deg); }
-          100% { transform: translate(-50%, -50%) rotate(360deg); }
-        }
-      `}</style>
 
       {/* Circuit decoration top-left */}
       <svg style={{ position: 'absolute', top: '8px', left: '-60px', pointerEvents: 'none', zIndex: 0 }}
