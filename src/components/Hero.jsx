@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Circuit decoration — pushed left outside margin */}
-      <svg style={{ position: 'absolute', top: 0, left: '-120px', pointerEvents: 'none', zIndex: 0 }}
+<svg style={{ position: 'absolute', top: 0, left: '-340px', pointerEvents: 'none', zIndex: 0 }}
         width="380" height="380" viewBox="0 0 380 380">
         <line x1="30" y1="20" x2="30" y2="320" stroke="#0d2040" strokeWidth="8" opacity="0.9"/>
         <line x1="52" y1="40" x2="52" y2="320" stroke="#1b4b7a" strokeWidth="6" opacity="0.8"/>
@@ -53,7 +53,7 @@ export default function Hero() {
       </svg>
 
       {/* Large gear — pushed down and right */}
-      <svg style={{ position: 'absolute', bottom: '-120px', right: '-80px', pointerEvents: 'none', zIndex: 0 }}
+<svg style={{ position: 'absolute', bottom: '-180px', right: '-120px', pointerEvents: 'none', zIndex: 0 }}
         width="460" height="460" viewBox="0 0 240 240">
         <g transform="translate(120,120)">
           {[0,30,60,90,120,150,180,210,240,270,300,330].map((angle, i) => (
