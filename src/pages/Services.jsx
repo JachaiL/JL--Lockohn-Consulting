@@ -66,6 +66,6 @@ export default function Services() {
         </div>
 
       </div>
-    </section>
-  );
+<section style={{ textAlign: 'center' }}>
+</section>  );
 }
