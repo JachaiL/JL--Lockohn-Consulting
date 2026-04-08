@@ -3,8 +3,12 @@ import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <header className="navbar" style={{ padding: '0.5rem 0', background: '#ffffff', borderBottom: '1px solid #e2e8f0' }}>
-      <div className="nav-inner" style={{ padding: '0.75rem 1.5rem', color: '#1b2b4b' }}>
+    <header className="navbar" style={{ 
+      padding: '1rem 0', 
+      background: '#ffffff', 
+      borderBottom: '2px solid #1b2b4b' 
+    }}>
+      <div className="nav-inner" style={{ padding: '0.75rem 1.5rem' }}>
 
         <div className="nav-brand" style={{ gap: '1rem' }}>
           <img
