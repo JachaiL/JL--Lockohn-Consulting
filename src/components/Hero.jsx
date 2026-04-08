@@ -141,10 +141,10 @@ export default function Hero() {
           </div>
           <div className="card-body">
             <ul className="card-list">
-              <li>Stabilized daily production with fewer surprises and less firefighting.</li>
-              <li>Clear playbooks for supervisors and leads—no more guessing at priorities.</li>
-              <li>Improved communication between corporate, plant leadership, and the floor.</li>
-              <li>Practical metrics that actually drive behavior, not just dashboards.</li>
+              <li>Faster vendor identification — qualified solution providers engaged earlier in the project cycle.</li>
+              <li>Reduced project risk through pre-vetted partners with proven track records.</li>
+              <li>Shorter timelines from project initiation to solution implementation.</li>
+              <li>Stronger supplier relationships built on partnership, not one-time transactions.</li>
             </ul>
           </div>
         </div>
