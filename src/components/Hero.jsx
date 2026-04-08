@@ -134,10 +134,10 @@ export default function Hero() {
         <div>
           <div className="hero-kicker">Food & Manufacturing Operations</div>
           <h1 className="hero-title">
-Turn <span style={{ color: '#1b4b7a' }}>complex plants</span> into predictable, profitable systems.
+            Turn <span>complex plants</span> into predictable, profitable systems.
           </h1>
-<p className="hero-body" style={{ color: '#0d2040' }}>
-              Lockohn Consulting partners with food processors and manufacturers to stabilize throughput,
+          <p className="hero-body">
+            Lockohn Consulting partners with food processors and manufacturers to stabilize throughput,
             reduce waste, and build operations your team can actually run—without burning them out.
           </p>
           <div className="hero-pills">
