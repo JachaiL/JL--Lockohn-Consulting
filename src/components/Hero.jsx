@@ -140,9 +140,8 @@ export default function Hero() {
           marginLeft: '1in',
           minWidth: '380px'
         }}>
-          <div className="card-header">
-            <span className="card-title" style={{ fontSize: '1.4rem', fontWeight: '700' }}>Typical outcomes</span>
-            <span className="card-tag" style={{ fontSize: '1rem', padding: '4px 12px' }}>Client results</span>
+          <div className="card-header" style={{ justifyContent: 'center', textAlign: 'center' }}>
+            <span className="card-title" style={{ fontSize: '1.4rem', fontWeight: '700' }}>Typical Outcomes</span>
           </div>
           <div className="card-body">
             <ul className="card-list" style={{ fontSize: '1.05rem', lineHeight: '1.8' }}>
