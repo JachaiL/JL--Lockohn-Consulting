@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Fixed background logo watermark */}
       <div style={{
         position: 'fixed',
-        left: '35%',
+        left: '25%',
         top: '70%',
         transform: 'translate(-50%, -50%)',
         width: '60%',
