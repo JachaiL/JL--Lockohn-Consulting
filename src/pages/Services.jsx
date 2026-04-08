@@ -12,7 +12,7 @@ export default function Services() {
         <div className="card">
           <div className="card-header">
             <span className="card-title">Food and Beverage Processors and Manufacturers</span>
-            <span className="card-tag">No Cost</span>
+            <span className="card-tag">Manufacturers</span>
           </div>
           <div className="card-body">
             <p>Every vendor search costs you what you can least afford: time.</p>
