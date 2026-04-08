@@ -20,15 +20,15 @@ export default function Home() {
       {/* Two audience cards */}
       <div className="grid-3" style={{ gridTemplateColumns: '1fr 1fr', marginTop: '2rem' }}>
 
-        <div className="card">
+        <div className="card" style={{ padding: '2rem' }}>
           <div className="card-header">
-            <span className="card-title">Food & Beverage Processors & Manufacturers</span>
+            <span className="card-title" style={{ fontSize: '1.3rem', fontWeight: '700' }}>Food & Beverage Processors & Manufacturers</span>
             <span className="card-tag">Manufacturers</span>
           </div>
-          <div className="card-body">
+          <div className="card-body" style={{ fontSize: '1.1rem', lineHeight: '1.9', marginTop: '1rem' }}>
             <p>You're already doing more with less. Finding the right vendor early in your project cycle means sifting through countless options and extended lead times — before you even know if a solution fits.</p>
             <p style={{ marginTop: '0.75rem' }}>Lockohn Consulting takes that burden off your plate.</p>
-            <ul className="card-list" style={{ marginTop: '0.75rem' }}>
+            <ul className="card-list" style={{ marginTop: '0.75rem', fontSize: '1.05rem' }}>
               <li>Get qualified vendors on your radar earlier in your planning phase</li>
               <li>Accelerate technical discussions with pre-vetted providers</li>
               <li>Shorten project timelines by connecting directly to supplier decision makers</li>
@@ -42,15 +42,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" style={{ padding: '2rem' }}>
           <div className="card-header">
-            <span className="card-title">Solution Providers & Vendors</span>
+            <span className="card-title" style={{ fontSize: '1.3rem', fontWeight: '700' }}>Solution Providers & Vendors</span>
             <span className="card-tag">Partners</span>
           </div>
-          <div className="card-body">
+          <div className="card-body" style={{ fontSize: '1.1rem', lineHeight: '1.9', marginTop: '1rem' }}>
             <p>You've built great products and services. The challenge is getting in front of the right decision makers inside food and beverage manufacturing facilities — before projects are spec'd and budgets are locked.</p>
             <p style={{ marginTop: '0.75rem' }}>Lockohn Consulting bridges that gap.</p>
-            <ul className="card-list" style={{ marginTop: '0.75rem' }}>
+            <ul className="card-list" style={{ marginTop: '0.75rem', fontSize: '1.05rem' }}>
               <li>Access to pre-qualified decision makers inside F&B facilities</li>
               <li>Get ahead of projects before timelines are set</li>
               <li>Build long-term relationships, not one-time transactions</li>
@@ -86,7 +86,7 @@ export default function Home() {
           'Facilities Assessment Resources',
         ].map((area) => (
           <div className="card" key={area} style={{ padding: '1rem 1.25rem' }}>
-            <div className="card-body" style={{ color: 'var(--text)', fontWeight: 500 }}>
+            <div className="card-body" style={{ color: 'var(--text)', fontWeight: 500, fontSize: '1.1rem' }}>
               {area}
             </div>
           </div>
