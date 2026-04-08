@@ -134,13 +134,18 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card" style={{ 
+          fontSize: '1.1rem', 
+          padding: '2rem',
+          marginLeft: '1in',
+          minWidth: '380px'
+        }}>
           <div className="card-header">
-            <span className="card-title">Typical outcomes</span>
+            <span className="card-title" style={{ fontSize: '1.2rem' }}>Typical outcomes</span>
             <span className="card-tag">Client results</span>
           </div>
           <div className="card-body">
-            <ul className="card-list">
+            <ul className="card-list" style={{ fontSize: '1.05rem', lineHeight: '1.8' }}>
               <li>Faster vendor identification — qualified solution providers engaged earlier in the project cycle.</li>
               <li>Reduced project risk through pre-vetted partners with proven track records.</li>
               <li>Shorter timelines from project initiation to solution implementation.</li>
