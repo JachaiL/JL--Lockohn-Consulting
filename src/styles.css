@@ -35,12 +35,10 @@ body {
   min-height: 100vh;
 }
 
-.app-main {
-  flex: 1;
-  padding: 4rem 1.5rem 3rem;
-  max-width: 1120px;
-  margin: 0 auto;
-  overflow: visible;
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .app-main {
@@ -183,8 +181,8 @@ body {
 }
 
 .hero-title span {
-color: #3a7ab5;
-
+  color: var(--accent);
+}
 
 .hero-body {
   font-size: 0.98rem;
