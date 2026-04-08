@@ -66,7 +66,7 @@ export default function Hero() {
 
       {/* Large gear bottom-right */}
       <svg style={{ position: 'absolute', bottom: '-80px', right: '-80px', pointerEvents: 'none', zIndex: 0 }}
-        width="460" height="460" viewBox="0 0 240 240">
+        width="792" height="792" viewBox="0 0 240 240">
 
         <g transform="translate(120,120)">
           {/* Gear teeth - dark navy base */}
