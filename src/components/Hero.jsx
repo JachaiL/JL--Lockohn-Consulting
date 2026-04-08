@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Circuit decoration top-left */}
-      <svg style={{ position: 'absolute', top: '288px', left: '-192px', pointerEvents: 'none', zIndex: 0 }}
+      <svg style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', zIndex: 0 }}
         width="380" height="380" viewBox="0 0 380 380">
 
         {/* Dark navy thick bracket lines */}
@@ -65,8 +65,8 @@ export default function Hero() {
       </svg>
 
       {/* Large gear bottom-right */}
-      <svg style={{ position: 'absolute', bottom: '-80px', right: '-80px', pointerEvents: 'none', zIndex: 0 }}
-        width="792" height="792" viewBox="0 0 240 240">
+      <svg style={{ position: 'absolute', bottom: '-30px', right: '-30px', pointerEvents: 'none', zIndex: 0 }}
+        width="460" height="460" viewBox="0 0 240 240">
 
         <g transform="translate(120,120)">
           {/* Gear teeth - dark navy base */}
