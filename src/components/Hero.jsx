@@ -5,7 +5,7 @@ export default function Hero() {
   const navigate = useNavigate();
 
   return (
-    <section style={{ position: 'relative', overflow: 'hidden' }}>
+    <section style={{ position: 'relative', overflow: 'visible' }}>
 
       {/* Background logo watermark */}
       <div style={{
