@@ -14,7 +14,7 @@ export default function Hero() {
         top: '70%',
         transform: 'translate(-50%, -50%)',
         width: '60%',
-        opacity: 0.03,
+        opacity: 0.08,
         maskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
         WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
         pointerEvents: 'none',
