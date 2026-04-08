@@ -22,36 +22,6 @@ export default function Hero() {
       }}>
         <img src="/logo_png_2.png" alt="" style={{ width: '100%' }} />
       </div>
-
-      {/* Circuit decoration — pushed left outside margin */}
-      <svg style={{ position: 'absolute', top: 0, left: '-120px', pointerEvents: 'none', zIndex: 0 }}
-        width="380" height="380" viewBox="0 0 380 380">
-        <line x1="30" y1="20" x2="30" y2="320" stroke="#0d2040" strokeWidth="8" opacity="0.9"/>
-        <line x1="52" y1="40" x2="52" y2="320" stroke="#1b4b7a" strokeWidth="6" opacity="0.8"/>
-        <line x1="72" y1="60" x2="72" y2="320" stroke="#3a7ab5" strokeWidth="4" opacity="0.7"/>
-        <line x1="90" y1="80" x2="90" y2="320" stroke="#5aaedc" strokeWidth="3" opacity="0.5"/>
-        <line x1="30" y1="320" x2="260" y2="320" stroke="#0d2040" strokeWidth="8" opacity="0.9"/>
-        <line x1="52" y1="320" x2="260" y2="320" stroke="#1b4b7a" strokeWidth="6" opacity="0.8"/>
-        <line x1="72" y1="320" x2="260" y2="320" stroke="#3a7ab5" strokeWidth="4" opacity="0.7"/>
-        <circle cx="260" cy="320" r="9" fill="none" stroke="#5aaedc" strokeWidth="3" opacity="0.9"/>
-        <circle cx="260" cy="320" r="3" fill="#5aaedc" opacity="0.7"/>
-        <circle cx="30" cy="20" r="9" fill="none" stroke="#0d2040" strokeWidth="3" opacity="0.9"/>
-        <polyline points="60,100 100,65 145,82 195,42 245,60 295,28 345,46"
-          fill="none" stroke="#0d2040" strokeWidth="5" strokeLinejoin="round" opacity="0.8"/>
-        <polyline points="60,100 100,65 145,82 195,42 245,60 295,28 345,46"
-          fill="none" stroke="#5aaedc" strokeWidth="2.5" strokeLinejoin="round" opacity="0.9"/>
-        <circle cx="60" cy="100" r="7" fill="none" stroke="#1b4b7a" strokeWidth="3" opacity="0.9"/>
-        <circle cx="145" cy="82" r="7" fill="none" stroke="#3a7ab5" strokeWidth="3" opacity="0.9"/>
-        <circle cx="245" cy="60" r="7" fill="none" stroke="#5aaedc" strokeWidth="3" opacity="0.9"/>
-        <circle cx="345" cy="46" r="9" fill="#5aaedc" opacity="0.8"/>
-        <line x1="30" y1="150" x2="170" y2="150" stroke="#0d2040" strokeWidth="3" opacity="0.7"/>
-        <line x1="170" y1="150" x2="170" y2="200" stroke="#1b4b7a" strokeWidth="3" opacity="0.7"/>
-        <circle cx="170" cy="200" r="7" fill="none" stroke="#5aaedc" strokeWidth="2.5" opacity="0.8"/>
-        <line x1="30" y1="220" x2="120" y2="220" stroke="#0d2040" strokeWidth="2.5" opacity="0.6"/>
-        <line x1="120" y1="220" x2="120" y2="260" stroke="#3a7ab5" strokeWidth="2.5" opacity="0.6"/>
-        <circle cx="120" cy="260" r="6" fill="none" stroke="#3a7ab5" strokeWidth="2" opacity="0.7"/>
-      </svg>
-
       {/* Large gear — pushed down and right */}
       <svg style={{ position: 'absolute', bottom: '-120px', right: '-80px', pointerEvents: 'none', zIndex: 0 }}
         width="460" height="460" viewBox="0 0 240 240">
