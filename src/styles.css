@@ -124,7 +124,7 @@ body {
 }
 
 .nav-link {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--muted);
   text-decoration: none;
   letter-spacing: 0.08em;
@@ -145,12 +145,12 @@ body {
 }
 
 .nav-cta {
-  padding: 0.45rem 0.9rem;
+  padding: 0.6rem 1.2rem;
   border-radius: 999px;
   border: 1px solid rgba(248, 250, 252, 0.12);
   background: radial-gradient(circle at top left, #5aaedc 0, #1b2b4b 55%);
   color: #f9fafb;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-decoration: none;

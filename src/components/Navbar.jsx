@@ -15,7 +15,7 @@ export default function Navbar() {
             src="/logo_png_2.png"
             alt="Lockohn Consulting"
             style={{
-              height: '120px',
+              height: '140px',
               width: 'auto',
               opacity: 1,
             }}
