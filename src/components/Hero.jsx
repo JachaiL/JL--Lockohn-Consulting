@@ -111,7 +111,7 @@ export default function Hero() {
       {/* Main content */}
       <div className="hero-grid" style={{ position: 'relative', zIndex: 1 }}>
         <div>
-          <div className="hero-kicker" style={{ fontSize: '2rem' }}>Food & Manufacturing Operations</div>
+<div className="hero-kicker" style={{ fontSize: '2rem' }}>Food & Beverage Processing and Manufacturing</div>
           <h1 className="hero-title" style={{ fontSize: '3.2rem', color: '#ffffff' }}>
             Connecting <span style={{ color: '#ffffff' }}>F&B Manufacturers</span> with the Right Solution Providers
           </h1>
