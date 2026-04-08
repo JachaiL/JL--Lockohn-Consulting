@@ -112,8 +112,7 @@ export default function Hero() {
       <div className="hero-grid" style={{ position: 'relative', zIndex: 1 }}>
         <div>
           <div className="hero-kicker">Food & Manufacturing Operations</div>
-          <h1 className="hero-title" style={{ fontSize: '3.2rem', color: '#ffffff' }}>
-            Connecting <span style={{ color: '#ffffff' }}>F&B Manufacturers</span> with the Right Solution Providers
+<div className="hero-kicker" style={{ fontSize: '2rem' }}>Food & Manufacturing Operations</div>            Connecting <span style={{ color: '#ffffff' }}>F&B Manufacturers</span> with the Right Solution Providers
           </h1>
           <p className="hero-body" style={{ fontSize: '1.2rem' }}>
             Lockohn Consulting works with you early in the process, on your behalf, to navigate engagements with pre-vetted solution providers — connecting Engineering, Operations, and Maintenance teams with the right partners for capital, operational, and maintenance initiatives based on your specific needs. No sales pitch. Just quicker, better results when you need them.
