@@ -7,7 +7,6 @@ export default function Hero() {
   return (
     <section style={{ position: 'relative', overflow: 'visible' }}>
 
-      {/* Fixed background logo watermark */}
       <div style={{
         position: 'fixed',
         left: '25%',
@@ -23,7 +22,6 @@ export default function Hero() {
         <img src="/logo_png_2.png" alt="" style={{ width: '100%' }} />
       </div>
 
-      {/* Circuit decoration top-left */}
       <svg style={{ position: 'absolute', top: '8px', left: '-60px', pointerEvents: 'none', zIndex: 0 }}
         width="380" height="380" viewBox="0 0 380 380">
         <line x1="30" y1="20" x2="30" y2="320" stroke="#0d2040" strokeWidth="8" opacity="0.9"/>
@@ -53,7 +51,6 @@ export default function Hero() {
         <circle cx="120" cy="260" r="6" fill="none" stroke="#3a7ab5" strokeWidth="2" opacity="0.7"/>
       </svg>
 
-      {/* Large gear bottom-right */}
       <svg style={{ position: 'absolute', bottom: '0px', right: '-220px', pointerEvents: 'none', zIndex: 0 }}
         width="460" height="460" viewBox="0 0 240 240">
         <g transform="translate(120,120)">
@@ -68,8 +65,7 @@ export default function Hero() {
           <circle cx="0" cy="0" r="60" fill="none" stroke="#1b4b7a" strokeWidth="4" opacity="0.7"/>
           <circle cx="0" cy="0" r="60" fill="none" stroke="#5aaedc" strokeWidth="1" opacity="0.4"/>
           {[0,60,120,180,240,300].map((angle, i) => (
-            <line key={i}
-              x1="0" y1="0"
+            <line key={i} x1="0" y1="0"
               x2={Math.cos((angle-90)*Math.PI/180)*58}
               y2={Math.sin((angle-90)*Math.PI/180)*58}
               stroke={i % 2 === 0 ? '#0d2040' : '#3a7ab5'}
@@ -92,7 +88,6 @@ export default function Hero() {
         <circle cx="234" cy="75" r="6" fill="none" stroke="#5aaedc" strokeWidth="2.5" opacity="0.8"/>
       </svg>
 
-      {/* Small secondary gear top-right */}
       <svg style={{ position: 'absolute', top: '10px', right: '60px', pointerEvents: 'none', zIndex: 0, opacity: 0.35 }}
         width="140" height="140" viewBox="0 0 100 100">
         <g transform="translate(50,50)">
@@ -108,7 +103,6 @@ export default function Hero() {
         </g>
       </svg>
 
-      {/* Main content */}
       <div className="hero-grid" style={{ position: 'relative', zIndex: 1 }}>
         <div>
           <div className="hero-kicker" style={{ fontSize: '1.1rem', letterSpacing: '3px' }}>Food & Beverage Processing and Manufacturing</div>
@@ -131,12 +125,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="card" style={{
-          fontSize: '1.1rem',
-          padding: '2rem',
-          marginLeft: '1in',
-          minWidth: '380px'
-        }}>
+        <div className="card" style={{ fontSize: '1.1rem', padding: '2rem', marginLeft: '1in', minWidth: '380px' }}>
           <div className="card-header" style={{ justifyContent: 'center', textAlign: 'center' }}>
             <span className="card-title" style={{ fontSize: '1.4rem', fontWeight: '700' }}>Typical Outcomes</span>
           </div>
