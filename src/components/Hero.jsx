@@ -124,15 +124,11 @@ export default function Hero() {
             <span className="hero-pill">Innovative solutions</span>
             <span className="hero-pill">Faster results</span>
           </div>
-          <div className="hero-actions">
-            <button className="btn-primary" onClick={() => navigate('/contact')}>
+<div className="hero-actions" style={{ justifyContent: 'center' }}>
+            <button className="btn-primary" style={{ fontSize: '1.3rem', padding: '1rem 2.5rem' }} onClick={() => navigate('/contact')}>
               Schedule an intro call
             </button>
-            <button className="btn-ghost" onClick={() => navigate('/services')}>
-              View services
-            </button>
           </div>
-        </div>
 
         <div className="card" style={{
           fontSize: '1.1rem',
