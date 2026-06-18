@@ -123,13 +123,11 @@ export default function Hero() {
             <span className="hero-pill">Partnerships not sales pitches</span>
             <span className="hero-pill">Innovative solutions</span>
             <span className="hero-pill">Faster results</span>
-          </div>
 <div className="hero-actions" style={{ justifyContent: 'center' }}>
             <button className="btn-primary" style={{ fontSize: '1.3rem', padding: '1rem 2.5rem' }} onClick={() => navigate('/contact')}>
               Schedule an intro call
             </button>
           </div>
-
         <div className="card" style={{
           fontSize: '1.1rem',
           padding: '2rem',
