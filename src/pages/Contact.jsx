@@ -27,7 +27,6 @@ export default function Contact() {
         <p className="section-body">
           Your time is valuable, whether in daily operations, coordinating maintenance strategies, or engineering your team's next project. Resources are tight - reach out to see how Lockohn Consulting can be an owner's resource in getting in front of the right vendor partners at the right time.
         </p>
-        </p>
 
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-field">
@@ -62,10 +61,8 @@ export default function Contact() {
         </form>
       </div>
 
-      {/* Availability card with gear graphic behind it */}
       <div style={{ position: 'relative' }}>
 
-        {/* Gear graphic */}
         <svg style={{ position: 'absolute', bottom: '-40px', right: '-60px', pointerEvents: 'none', zIndex: 0, opacity: 0.6 }}
           width="340" height="340" viewBox="0 0 240 240">
           <g transform="translate(120,120)">
@@ -94,7 +91,6 @@ export default function Contact() {
           </g>
         </svg>
 
-        {/* Circuit lines */}
         <svg style={{ position: 'absolute', top: '0px', left: '-40px', pointerEvents: 'none', zIndex: 0, opacity: 0.5 }}
           width="200" height="200" viewBox="0 0 380 380">
           <line x1="30" y1="20" x2="30" y2="320" stroke="#0d2040" strokeWidth="8" opacity="0.9"/>
