@@ -108,7 +108,7 @@ export default function Contact() {
           </div>
           <div className="card-body">
             I typically respond within 1–2 business days.
-            For urgent plant issues, mention it in your message and I'll prioritize accordingly.
+            For immediate project, maintenance, or plant needs, mention it in your message and I'll prioritize accordingly.
           </div>
           <div className="card-body" style={{ marginTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1rem', fontSize: '1.25rem' }}>
             <p style={{ fontWeight: '700', marginBottom: '0.25rem', fontSize: '1.5rem' }}>Jachai Lockhart, President</p>
