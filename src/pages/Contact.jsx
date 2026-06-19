@@ -101,7 +101,7 @@ export default function Contact() {
           <circle cx="260" cy="320" r="3" fill="#5aaedc" opacity="0.7"/>
         </svg>
 
-        <div className="card" style={{ position: 'relative', zIndex: 1, height: '160px' }}>
+        <div className="card" style={{ position: 'relative', zIndex: 1 }}>
           <div className="card-header">
             <span className="card-title">Availability</span>
             <span className="card-tag">Response time</span>
@@ -109,6 +109,19 @@ export default function Contact() {
           <div className="card-body">
             I typically respond within 1–2 business days.
             For urgent plant issues, mention it in your message and I'll prioritize accordingly.
+          </div>
+          <div className="card-body" style={{ marginTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1rem' }}>
+            <p style={{ fontWeight: '700', marginBottom: '0.25rem' }}>Jachai Lockhart, President</p>
+            <p style={{ marginBottom: '0.25rem' }}>Lockohn Consulting</p>
+            <p style={{ marginBottom: '0.25rem' }}>
+              <a href="mailto:jachai@lockohnconsulting.com" style={{ color: '#5aaedc' }}>jachai@lockohnconsulting.com</a>
+            </p>
+            <p style={{ marginBottom: '0.25rem' }}>
+              <a href="tel:6512454959" style={{ color: '#5aaedc' }}>651-245-4959</a>
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/jachailockhart/" target="_blank" rel="noreferrer" style={{ color: '#5aaedc' }}>LinkedIn</a>
+            </p>
           </div>
         </div>
 
