@@ -25,9 +25,8 @@ export default function Contact() {
       <div>
         <h1>Contact Lockohn Consulting</h1>
         <p className="section-body">
-          If you're facing throughput issues, leadership gaps, or operational instability,
-          let's talk. Most plants don't need a full overhaul — they need clarity, alignment,
-          and a system that people can actually run.
+          Your time is valuable, whether in daily operations, coordinating maintenance strategies, or engineering your team's next project. Resources are tight - reach out to see how Lockohn Consulting can be an owner's resource in getting in front of the right vendor partners at the right time.
+        </p>
         </p>
 
         <form className="contact-form" onSubmit={handleSubmit}>
